@@ -64,3 +64,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# Simple form gem for form generation
+gem "simple_form"
+
+# faker gem to populate seed file
+gem "faker"

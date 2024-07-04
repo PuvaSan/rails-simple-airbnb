@@ -7,3 +7,13 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+10.times do
+  Flat.create(
+    name: Faker::JapaneseMedia::OnePiece.island,
+    address: "#{rand(1000..9999)} #{Faker::JapaneseMedia::OnePiece.location}",
+    description: Faker::JapaneseMedia::OnePiece.quote,
+    price_per_night: rand(125..500),
+    number_of_guest: rand(2..8)
+  )
+end
