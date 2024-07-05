@@ -1,8 +1,13 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <div class="container">
+  </div>
+</div>
+
 <div class="container">
   <h1><%= @flat.name %></h1>
   <p><%= @flat.address %></p>
-  <p><%= @flat.description %></p>
-  <p><%= @flat.number_of_guest %></p>
-  <p><%= @flat.number_of_guest %></p>
+  <p>"<%= @flat.description %>"</p>
+  <p><i class="fa-solid fa-house"></i> <i class="fa-solid fa-dollar-sign"></i><%= @flat.price_per_night %> /night</p>
+  <p><i class="fa-solid fa-person"></i> <%= @flat.number_of_guest %></p>
 
 </div>

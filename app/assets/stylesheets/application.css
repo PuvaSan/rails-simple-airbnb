@@ -26,3 +26,9 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
